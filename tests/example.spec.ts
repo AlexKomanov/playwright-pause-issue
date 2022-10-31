@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import {allure} from "allure-playwright";
 
 test.beforeEach(async ({page}) => {
-    await page.setViewportSize({width: 1920, height: 1080});
+    await page.setViewportSize({width: 1400, height: 900});
 })
 
 test('homepage has Playwright in title and get started link linking to the intro page @testing', async ({ page }) => {

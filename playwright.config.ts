@@ -16,13 +16,13 @@ const config: PlaywrightTestConfig = {
         actionTimeout: 30000,
         trace: "off",
         screenshot: "on",
-        viewport: {width: 1920, height: 1080},
+        viewport: {width: 1400, height: 900},
         video: {
             mode: "retain-on-failure",
             size: {
                 //Like in our project
-                width: 500,
-                height: 300,
+                width: 1400,
+                height: 900,
             },
         },
         contextOptions: {
