@@ -30,8 +30,8 @@ const config: PlaywrightTestConfig = {
         },
         // Browser options
         launchOptions: {
-            channel: "chrome",
-            headless: process.env.CI ? true : true,
+            channel: "msedge",
+            headless: process.env.CI ? true : false,
             slowMo: 200,
             args: [
                 "--no-sandbox",
