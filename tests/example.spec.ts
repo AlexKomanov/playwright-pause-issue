@@ -10,6 +10,9 @@ test('homepage has Playwright in title and get started link linking to the intro
 
   await page.goto('https://playwright.dev/');
 
+   // Pause test here - please un-comment this
+  // await page.pause();
+
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 
