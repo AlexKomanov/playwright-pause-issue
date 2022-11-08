@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Install Edge Browser
-      run: npx playwright install msedge
+      run: npx playwright install chrome
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v3

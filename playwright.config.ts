@@ -30,7 +30,7 @@ const config: PlaywrightTestConfig = {
         },
         // Browser options
         launchOptions: {
-            channel: "msedge",
+            channel: "chrome",
             headless: process.env.CI ? true : false,
             slowMo: 200,
             args: [
